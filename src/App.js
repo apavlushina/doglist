@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import DogsList from "./components/DogList";
+import DogsListContainer from "./components/DogsListContainer";
 
 function App() {
   return (
     <main>
-      <DogsList />
+      <DogsListContainer />
     </main>
   );
 }
